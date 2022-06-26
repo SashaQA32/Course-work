@@ -9,9 +9,9 @@ import static io.restassured.RestAssured.given;
 
 public class API {
 
+    static String appUrl = System.getProperty("sut.url");
     public static RequestSpecification requestSpec = new RequestSpecBuilder()
-            .setBaseUri("http://localhost")
-            .setPort(8080)
+            .setBaseUri(appUrl)
             .setAccept(ContentType.JSON)
             .setContentType(ContentType.JSON)
             .log(LogDetail.ALL)

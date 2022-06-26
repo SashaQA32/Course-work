@@ -11,7 +11,7 @@ import ru.netology.page.PayPage;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static ru.netology.data.Data.*;
 
-public class HappyPathPayTest extends ByUIFirstTest {
+public class HappyPathPayTest extends UiBaseTest {
 
     MainPage mainPage = new MainPage();
     PayPage payPage = new PayPage();

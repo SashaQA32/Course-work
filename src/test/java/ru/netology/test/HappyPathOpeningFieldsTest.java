@@ -4,7 +4,7 @@ import lombok.val;
 import org.junit.jupiter.api.Test;
 import ru.netology.page.MainPage;
 
-public class HappyPathOpeningFieldsTest extends ByUIFirstTest {
+public class HappyPathOpeningFieldsTest extends UiBaseTest {
 
     @Test
     void shouldGetPaymentPage() {

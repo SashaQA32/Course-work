@@ -9,11 +9,13 @@ import ru.netology.data.SQL;
 
 import static com.codeborne.selenide.Selenide.open;
 
-public class ByUIFirstTest {
+public class UiBaseTest {
+
+    static String appUrl = System.getProperty("sut.url");
 
     @BeforeEach
     public void openSource() {
-        open("http://localhost:8080");
+        open(appUrl);
         SQL.cleanTable();
     }
 

@@ -9,7 +9,7 @@ import ru.netology.page.PayPage;
 
 import static ru.netology.data.Data.*;
 
-public class CardCVVPayFieldTest extends ByUIFirstTest {
+public class CardCVVPayFieldTest extends UiBaseTest {
 
     MainPage mainPage = new MainPage();
     PayPage payPage = new PayPage();
