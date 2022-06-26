@@ -20,6 +20,7 @@
 ## Документация
 
 * [План автоматизации](reports/Plan.md)
+* [Отчёт по итогам тестирования](https://github.com/SashaQA32/Course-work/blob/master/reports/Report.md)
 
 ## Запуск приложения
 
