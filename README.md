@@ -4,7 +4,8 @@
 
 В рамках данного проекта необходимо автоматизировать тестирование комплексного сервиса покупки тура, взаимодействующего с СУБД и API Банка.
 
-![](reports/pictures/service.png)
+![service](https://user-images.githubusercontent.com/96742286/175264606-6260b628-88c3-4f86-9f43-8d2a0675e7ce.PNG)
+
 
 Покупка тура возможна с помощью банковской карты и в кредит. Данные по картам обрабатываются отдельными сервисами (Payment Gate, Credit Gate). Разработчики сделали один сервис, симулирующий и Payment Gate, и Credit Gate.
 
@@ -32,7 +33,7 @@
 
 ### Запуск
 
-1. Запустить базу данных MySQL. Параметры для запуска хранятся в файле [docker-compose.yml](Coursework/docker-compose.yml). Для запуска необходимо ввести в терминале команду:
+1. Запустить базу данных MySQL. Параметры для запуска хранятся в файле [docker-compose.yml](https://github.com/SashaQA32/Course-work/blob/master/docker-compose.yml). Для запуска необходимо ввести в терминале команду:
 > docker-compose up
 2. Для запуска приложения ввести в терминале команду
 > java -jar artifacts/aqa-shop.jar -port=8080
